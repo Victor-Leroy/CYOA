@@ -1,24 +1,21 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
 
-app.use(express.static('public')); // to serve static files like your JSON file and any JS/CSS files
-
-app.get('/', (req, res) => {
-  res.send(`
-    <html>
-      <head>
-        <title>My Interactive Story</title>
-        <!-- Include any CSS or JS here -->
-      </head>
-      <body>
-        <div id="story"></div>
-        <script src="yourStoryHandlingScript.js"></script>
-      </body>
-    </html>
-  `);
+const server = http.createServer((req, res) => {
+    // Assuming your HTML file is in the same directory as your server script
+    fs.readFile('./index.html', (err, data) => {
+        if (err) {
+            res.writeHead(500);
+            res.end('Error loading the file');
+        } else {
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.end(data);
+        }
+    });
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+const PORT = 3000;
+server.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
