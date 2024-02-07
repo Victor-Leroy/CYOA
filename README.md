@@ -1,1 +1,3 @@
-# CYOA
+# Jungle Time Warp
+
+Welcome to Jungle Time Warp, where adventure awaits in the heart of an ancient jungle. Stranded here due to a mishap in time travel, you find yourself surrounded by lush foliage and mysterious creatures. With each step, you'll uncover secrets of the past while navigating through this wild and vibrant landscape. Are you ready to embrace the unknown and embark on a thrilling journey through time and jungle? The adventure starts now!
