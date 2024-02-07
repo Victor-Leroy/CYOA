@@ -37,11 +37,13 @@ h5 { font-size: 16px; }
 
 .choice {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #ffffff;  /* Background color of the choices */
     border-radius: 8px;
     margin: 8px;
-    width: 700px;               /* Height of each choice */
-    height: 150px;              /* Width of each choice */
+    width: 700px;               /* Width of each choice */
+    height: 150px;              /* Height of each choice */
 }
 
 .choice-image {
@@ -51,7 +53,11 @@ h5 { font-size: 16px; }
 }
 
 .choice-text-area {
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 120px; /* Adjust the 120px value to increase or decrease the padding */
 }
 
 .choice-title {
