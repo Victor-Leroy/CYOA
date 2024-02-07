@@ -1,0 +1,50 @@
+Script du Jeu CYOA - "Aventure dans la Jungle"
+Introduction
+
+Narration: "Suite à une expérience scientifique qui a mal tourné, vous vous retrouvez transporté(e) dans une jungle dense et mystérieuse."
+Choix:
+Explorer les environs.
+Chercher un abri.
+Exploration
+
+Si Explorer:
+Narration: "En explorant, vous entendez des bruits d'animaux. Vous apercevez un sentier menant à une rivière et un autre conduisant à une structure ancienne."
+Choix:
+Suivre le sentier de la rivière.
+Aller vers la structure ancienne.
+Si Chercher un abri:
+Narration: "Vous trouvez un abri sous un arbre épais. Soudain, vous entendez des pas approcher."
+Choix:
+Se cacher.
+Enquêter sur le bruit.
+Rencontre avec les Animaux
+
+Si Rivière:
+Narration: "Près de la rivière, vous voyez un caïman au bord de l'eau."
+Choix:
+Retourner prudemment.
+Essayer de le contourner.
+Si Structure Ancienne:
+Narration: "Vous découvrez un temple ancien. Des singes jouent à proximité."
+Choix:
+Explorer le temple.
+Jouer avec les singes.
+Rencontre avec les Tribus
+
+Si Explorer le temple:
+Narration: "À l'intérieur du temple, vous rencontrez une tribu. Leur comportement semble amical."
+Choix:
+Communiquer avec la tribu.
+Explorer discrètement le temple.
+Si Jouer avec les singes:
+Narration: "Les singes vous mènent à une tribu. Leur attitude semble méfiante."
+Choix:
+Tenter de les apaiser.
+S'éloigner discrètement.
+Conclusion
+
+Basée sur les choix précédents, diverses fins sont possibles :
+Retour à la civilisation.
+Découverte d'un secret ancien dans le temple.
+Formation d'une alliance avec une des tribus.
+Ou d'autres fins mystérieuses...
