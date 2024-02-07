@@ -49,6 +49,7 @@ h5 { font-size: 16px; }
 .choice-image {
     object-fit: cover;
     width: 300px;               /* Width to crop images to */
+    height: 100%;               /* Adjust this to fit the image within its container */
     border-radius: 8px;
 }
 
