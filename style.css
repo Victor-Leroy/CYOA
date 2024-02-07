@@ -1,0 +1,51 @@
+body {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    font-family: papyrus;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 70px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .scene {
+    background: url("images/index.png") no-repeat;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .situation {
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    width: 640px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .credit {
+    position: absolute;
+    top: 372px;
+    left: 264px;
+    font-size: 12px;
+  }
+  
