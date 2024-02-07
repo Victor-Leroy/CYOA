@@ -27,30 +27,26 @@ h5 { font-size: 16px; }
 }
 
 .choices-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 .choice {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    background-color: #ffffff;  /* Background color of the choices */
+    background-color: #ffffff;
     border-radius: 8px;
-    margin: 8px;
-    width: 700px;               /* Width of each choice */
-    height: 150px;              /* Height of each choice */
+    padding: 20px;
 }
 
 .choice-image {
-    object-fit: cover;
-    width: 300px;               /* Width to crop images to */
-    border-radius: 8px;
+    width: 100%;
+    height: auto;
 }
+
 
 .choice-text-area {
     display: flex;
