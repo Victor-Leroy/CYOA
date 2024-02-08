@@ -48,3 +48,6 @@ Retour à la civilisation.
 Découverte d'un secret ancien dans le temple.
 Formation d'une alliance avec une des tribus.
 Ou d'autres fins mystérieuses...
+
+A : Vous decidez de suivre les traces de pas -> Vous trouvez une tribu amicale qui vous indique la direction
+B : Vous decidez d'allez vous reposer pour la journée du lendemain
