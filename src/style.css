@@ -1,83 +1,150 @@
-html, body {
-    height: 100%; /* Needed to enable full height for centering */
+html,
+body {
+    height: 100%;
+    /* Needed to enable full height for centering */
     margin: 0;
     padding: 0;
-    color: #347d3e; /* Dark green color for fonts */
-    font-family: 'Arial', sans-serif; /* Adding a font for better readability */
+    color: #347d3e;
+    /* Dark green color for fonts */
+    font-family: 'Arial', sans-serif;
+    /* Adding a font for better readability */
 }
 
 .background-image {
-    position: fixed; /* Fixed positioning */
+    position: fixed;
+    /* Fixed positioning */
     top: -300px;
     left: 0;
     width: 1750px;
-    height: 1750px; /* Adjust height as needed */
-    z-index: -1; /* Place the image behind the content */
-    opacity: 1; /* Slightly transparent to not distract from the content */
+    height: 1750px;
+    /* Adjust height as needed */
+    z-index: -1;
+    /* Place the image behind the content */
+    opacity: 1;
+    /* Slightly transparent to not distract from the content */
 }
 
-hr { display: block; margin: 8px auto; border: 2px solid black; width: 90%; }
-h1, h2, h3, h4, h5 { text-align: center; margin: 12px; }
-h1 { font-size: 64px; }
-h2 { font-size: 48px; }
-h3 { font-size: 32px; }
-h4 { font-size: 24px; }
-h5 { font-size: 16px; }
+hr {
+    display: block;
+    margin: 8px auto;
+    border: 2px solid black;
+    width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    margin: 12px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
 
 .cyoa {
-    position: absolute; /* Absolute positioning */
-    top: 450px; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust the positioning to the center */
-    width: 1000px; /* Adjust width as needed */
+    position: absolute;
+    /* Absolute positioning */
+    top: 450px;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust the positioning to the center */
+    width: 1000px;
+    /* Adjust width as needed */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Light jungle green background */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Light jungle green background */
     border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* Soft shadow for depth */
 
 }
 
 .introduction-text {
-    background-color: #d7f4d1; /* Even lighter shade for emphasis */
+    background-color: #d7f4d1;
+    /* Even lighter shade for emphasis */
     padding: 20px;
-    margin-bottom: 20px; /* Add space below the introduction text */
+    margin-bottom: 20px;
+    /* Add space below the introduction text */
     border-radius: 5px;
-    opacity: 1; /* Fully opaque for better readability */
+    opacity: 1;
+    /* Fully opaque for better readability */
 }
 
 .choice {
-    background-color: rgba(255, 255, 255, 0.6); /* Off-white for contrast */
-    border: 1px solid #3d7249; /* Border color to match the jungle theme */
-    border-radius: 5px; /* Rounded borders */
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Off-white for contrast */
+    border: 1px solid #3d7249;
+    /* Border color to match the jungle theme */
+    border-radius: 5px;
+    /* Rounded borders */
     padding: 20px;
-    text-align: center; /* Center the text inside the choice */
-    margin-bottom: 10px; /* Add space between choices */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-    opacity: 1; /* Fully opaque for better readability */
+    text-align: center;
+    /* Center the text inside the choice */
+    margin-bottom: 10px;
+    /* Add space between choices */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+    opacity: 1;
+    /* Fully opaque for better readability */
 }
 
-a { /* This targets all anchor tags */
-    text-decoration: none; /* Removes the underline */
+a {
+    /* This targets all anchor tags */
+    text-decoration: none;
+    /* Removes the underline */
 }
 
 .choice-title {
-    color: #0f481c; /* Dark green for the title */
+    color: #0f481c;
+    /* Dark green for the title */
     margin-bottom: 10px;
-    font-size: 24px; /* Larger font for emphasis */
-    opacity: 1; /* Fully opaque for better readability */
+    font-size: 24px;
+    /* Larger font for emphasis */
+    opacity: 1;
+    /* Fully opaque for better readability */
 }
 
 .choice:hover,
-a:hover .choice { /* This will ensure the hover effect is applied when hovering over the link as well */
-    background-color: #d4ebc5; /* Lighter green on hover for interactivity */
-    cursor: pointer; /* Change cursor to indicate clickable */
-    opacity: 1; /* Fully opaque for better readability */
+a:hover .choice {
+    /* This will ensure the hover effect is applied when hovering over the link as well */
+    background-color: #d4ebc5;
+    /* Lighter green on hover for interactivity */
+    cursor: pointer;
+    /* Change cursor to indicate clickable */
+    opacity: 1;
+    /* Fully opaque for better readability */
 }
 
 .choice-image {
-    width: 20%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Rounded borders */
-    margin-bottom: 10px; /* Add space below the image */
-    opacity: 1; /* Fully opaque for better readability */
+    width: 20%;
+    /* Adjust width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* Rounded borders */
+    margin-bottom: 10px;
+    /* Add space below the image */
+    opacity: 1;
+    /* Fully opaque for better readability */
 }
