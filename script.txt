@@ -51,3 +51,5 @@ Ou d'autres fins mystérieuses...
 
 A : Vous decidez de suivre les traces de pas -> Vous trouvez une tribu amicale qui vous indique la direction
 B : Vous decidez d'allez vous reposer pour la journée du lendemain
+
+TODO : river_paath.html : Head back to the shelter
