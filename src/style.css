@@ -1,36 +1,39 @@
-html, body, div { padding: 0px; margin: 0px; }
-hr { display: block; margin: 8px auto; border: 2px solid black; width: 90%; }
-h1, h2, h3, h4, h5 { text-align: center; margin: 12px; }
-h1 { font-size: 64px; }
-h2 { font-size: 48px; }
-h3 { font-size: 32px; }
-h4 { font-size: 24px; }
-h5 { font-size: 16px; }
+html, body, div { padding: 0; margin: 0; }
+hr { display: block; margin: 1rem auto; border: 2px solid black; width: 90%; }
+h1, h2, h3, h4, h5 { text-align: center; margin: 0.75rem; }
+h1 { font-size: 4rem; } /* No change needed, it's already quite large */
+h2 { font-size: 3rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1rem; }
 
 .cyoa {
-    padding: 1px 0px;
-    margin: 0px auto;
-    width: 900px;               /* Width of your CYOA */
-    background-color: #bbbbcc;  /* Background color of your CYOA */
+    padding: 0.1rem 0;
+    margin: 0 auto;
+    width: 56.25rem; /* 900px */
+    background-color: #bbbbcc;
 }
 
 .introduction-text {
     text-align: center;
-    font-size: 20px;            /* Font size for introduction text */
-    padding-bottom: 16px;
+    font-size: 1.5rem; /* Increased from 20px */
+    padding-bottom: 1rem;
+    line-height: 1.6; /* Increased line height for readability */
+    font-weight: 500; /* Slightly bolder */
 }
 
 .section-text {
     text-align: center;
-    font-size: 18px;            /* Font size for section text */
-    margin: 8px 32px;
+    font-size: 1.125rem; /* Increased from 18px */
+    margin: 0.5rem 2rem;
+    line-height: 1.6;
 }
 
 .choices-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr)); /* 300px */
+    gap: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
 }
 
 .choice {
@@ -38,8 +41,8 @@ h5 { font-size: 16px; }
     flex-direction: column;
     justify-content: space-between;
     background-color: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
+    border-radius: 0.5rem; /* 8px */
+    padding: 1.25rem; /* 20px */
 }
 
 .choice-image {
@@ -47,23 +50,28 @@ h5 { font-size: 16px; }
     height: auto;
 }
 
-
 .choice-text-area {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 120px; /* Adjust the 120px value to increase or decrease the padding */
+    padding: 0 7.5rem; /* Adjusted padding */
 }
 
 .choice-title {
     text-align: center;
-    font-size: 32px;            /* Font size for choice titles */
+    font-size: 2rem; /* 32px */
 }
 
 .choice-text {
     text-align: center;
-    font-size: 14px;            /* Font size for choice explanation text */
-    padding: 0px 16px;
+    font-size: 1rem; /* Increased from 14px */
+    padding: 0 1rem; /* 16px */
+    line-height: 1.6;
 }
 
+@media (max-width: 600px) {
+.introduction-text, .section-text, .choice-text {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
