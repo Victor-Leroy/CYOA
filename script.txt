@@ -53,3 +53,9 @@ A : Vous decidez de suivre les traces de pas -> Vous trouvez une tribu amicale q
 B : Vous decidez d'allez vous reposer pour la journée du lendemain
 
 TODO : river_paath.html : Head back to the shelter
+
+MAP -> 3 paths -> 3 endings
+
+First ending : You decide to stay with the tribe for the rest of your life
+Second ending : You go to the temple and find the technology to go back to the civilization
+Third ending: death falling off a bed
