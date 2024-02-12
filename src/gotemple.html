@@ -13,6 +13,7 @@
             margin: 10px;
         }
     </style>
+    <script src="script.js"></script>
 </head>
 <img src="img/BackgroundImg.jpg" alt="Jungle" class="background-image">
 <body>
@@ -36,9 +37,10 @@
             </h4>
         </div>
         <div class="input-container">
-            <script src="script.js"></script>
-            <input type="text" id="userInput" placeholder="Enter your answer">
-            <button onclick="checkAnswer()">Check</button>
+            <input type="text" id="answer" placeholder="Enter your answer here">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="message"></p>
+        
         </div>    
         </div>
 </body>
