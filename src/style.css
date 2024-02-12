@@ -15,8 +15,8 @@ body {
     /* Fixed positioning */
     top: -300px;
     left: 0;
-    width: 1750px;
-    height: 1750px;
+    width: 100%;
+    height: auto;
     /* Adjust height as needed */
     z-index: -1;
     /* Place the image behind the content */
