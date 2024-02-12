@@ -57,7 +57,7 @@ h5 {
 }
 
 .cyoa {
-    margin-top: 3%;
+    position: relative;
     display: block;
     width: 80%;
     max-width: 1000px;
