@@ -11,7 +11,7 @@ function checkAnswer() {
   const userInput = input.value.toLowerCase();
 
   // Define the expected answer
-  const expectedAnswer = 'answer'; // Replace with your expected answer
+  const expectedAnswer = 'water'; // Replace with your expected answer
 
   // Check if the user's input matches the expected answer
   if (userInput === expectedAnswer) {

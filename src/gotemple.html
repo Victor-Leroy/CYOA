@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head><title>CYOA</title><link rel="stylesheet" href="style.css"></head>
+<head>
+    <title>CYOA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
 <img src="img/BackgroundImg.jpg" alt="Jungle" class="background-image">
-<body><div class="cyoa">
-
-    <h1>Jungle<br>Time Warp</h1>
-
-    <div class="introduction-text">
-        <h4>
-            <b>The Enigma of the Eternal Guardian</b><br>
-            <br>
-            In a hidden room of the temple,<br> the adventurer discovers a bas-relief depicting the elements of nature surrounding an empty space in the center,<br> with an inscription engraved above:<br>
-            <br>
-            "I am neither animal, nor plant, nor mineral.<br>
-            I am as old as the world, yet eternally renewed.<br>
-            I dominate the peaks and carve the valleys, molding the earth in my image.<br>
-            Without me, life extinguishes.<br>
-            <br>Who am I?"
-            <br>
-            <br>
-            Instructions for the player:<br>
-            
-            Enter the keyword that solves the enigma to reveal the secret guarded by the room.</h4>
-    </div>
-
-    <div class="choices-container">
-        <a href="index.html">
-            <div class="choice">
-                <img class="choice-image" src="img/eat.jpg">
-                <div class="choice-text-area">
-                    <div class="choice-title">
-                        
+<body>
+    <div class="cyoa">
+        <h1>Jungle<br>Time Warp</h1>
+        <div class="introduction-text">
+            <h4>
+                <b>The Enigma of the Eternal Guardian</b><br>
+                <br>
+                In a hidden room of the temple,<br> the adventurer discovers a bas-relief depicting the elements of nature surrounding an empty space in the center,<br> with an inscription engraved above:<br>
+                <br>
+                "I am neither animal, nor plant, nor mineral.<br>
+                I am as old as the world, yet eternally renewed.<br>
+                I dominate the peaks and carve the valleys, molding the earth in my image.<br>
+                Without me, life extinguishes.<br>
+                <br>Who am I?"
+                <br>
+                <br>
+                Instructions for the player:<br>
+                Enter the keyword that solves the enigma to reveal the secret guarded by the room.
+            </h4>
+        </div>
+        <div class="choices-container">
+            <a href="index.html">
+                <div class="choice">
+                    <img class="choice-image" src="img/enigma.jpg">
+                    <div class="choice-text-area">
+                        <div class="choice-title">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-    </div>
-    
-</div></body>
+            </a>
+        </div>
+        <div class="input-container">
+            <script src="script.js"></script>
+            <input type="text" id="userInput" placeholder="Enter your answer">
+            <button onclick="checkAnswer()">Check</button>
+        </div>    
+        </div>
+</body>
 </html>
