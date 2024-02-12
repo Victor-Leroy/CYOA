@@ -31,7 +31,6 @@ After installing the Live Server extension, you can easily view your HTML file i
 2. Navigate to the `index.html` file in the file explorer. [here](src/index.html)
 3. Right-click on the `index.html` file.
 4. Select `Open with Live Server`. This will automatically launch your default web browser and open the `index.html` file.
-5. Any changes you make to the file will automatically reload in the browser.
 
 ## Additional Information
 
