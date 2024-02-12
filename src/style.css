@@ -61,10 +61,11 @@ h5 {
 }
 
 .cyoa {
-    position: relative;
+position: sticky;
     /* Adjust the positioning to the center */
     top: 10%;
     left: 20%;
+    /* Adjust the positioning to 20% */
     width: 1000px;
     /* Adjust width as needed */
     padding: 20px;
