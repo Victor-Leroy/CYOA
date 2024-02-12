@@ -15,10 +15,8 @@ function checkAnswer() {
 
   // Check if the user's input matches the expected answer
   if (userInput === expectedAnswer) {
-    // Display a success message
-    alert('Congratulations! You win!');
+    window.location.href = 'gg.html'; // replace 'next_page.html' with the actual path to the next page
   } else {
-    // Display a failure message
-    alert('Sorry, you lose!');
+    window.location.href = 'templedeath.html'; // replace 'next_page.html' with the actual path to the next page
   }
 }
